@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Hotel services</title>
+    <style>
+        body
+            {
+                margin-top: -50px;
+            }
+
+        body::before
+            {
+                content: "";
+                position: absolute;
+                background: url("image/home.jpg") no-repeat center center/cover;
+                display: flex;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 1;
+            }
+
+        .container
+            {
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(2, 2fr);
+                grid-gap: 5rem; 
+            }
+
+        .box
+         {
+            margin-left: 20px;
+            border: 2px solid black;
+            background-color: rgb(25, 157, 240);
+            height: 245px;
+            border-radius: 25px;
+
+        }
+
+        #box1
+            {
+                background: url('image/b.webp') no-repeat center center/cover;
+                background-size: 100% 100%;
+                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            
+        #box2
+            {
+                background: url('image/r.jpg') no-repeat center center/cover;
+                background-size: 100% 100%;
+                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        #box3
+            {
+                background: url('image/g.jpg') no-repeat center center/cover;
+                background-size: 100% 100%;
+                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        #box4 
+            {
+                background: url('image/j.webp') no-repeat center center/cover;
+                background-size: 100% 100%;
+                font-style: italic;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+       
+
+        h1 
+            {
+                margin-top: 50px;
+                font-family: 'Baloo Bhai 2', cursive;
+                text-align: center;
+                color: rgb(9, 9, 9);
+                margin: auto;
+                border-radius: 30px;
+                font-weight: bolder;
+                font-style: italic;
+                background-color: rgb(222, 89, 89);
+            display: inline block;
+            }
+
+        button 
+        {
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 20px;
+            text-decoration: none;
+            color: wheat;
+            margin: 10px;
+            padding: 5px;
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+            text-decoration-color: blue;
+        }
+
+        button:hover
+            {
+                background-color: rgb(15, 244, 38);
+                color: white;
+                border-radius: 20kpx;
+            }
+
+        button a 
+            {
+                text-decoration: none;
+                margin: 1px;
+                text-align: center;
+            }
+        p
+            {
+                margin-top: 50px;
+                margin-bottom: 0px;
+                text-align: center;
+                font-size: 3rem;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+        h3
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                font-size: 20px;
+                border: 2px solid black;
+                margin: 23px;
+                margin-right: 500px;
+                margin-top: 160px;
+                background-color: rgb(154, 247, 216);
+            }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <p>Best Hotel in your city</p>
+    </div>
+    <div class="container">
+        <div class="box" id="box1">
+            <h1> Bhavya Hotel</h1>
+            <h3>Rs. 20000 /-</h3>
+            <center><button><a href="Bhavya_hotel/bhavya_home.html" >Visit Now</a></button></center>
+            
+        </div>
+        <div class="box" id="box2">
+            <h1>Hotel Rajendra</h1>
+            <h3>Rs. 12000 /-</h3>
+            <center><button><a href="Rajender_hotel/rajender_home.html">Visit Now</a></button></center>
+        </div>
+        <div class="box" id="box3">
+            <h1>Gurumat Hotel</h1>
+            <h3>Rs. 16000 /-</h3>
+            <center><button><a href="Gurumat_hotel/gurmet_home.html">Visit Now</a></button></center>
+        </div>
+        <div class="box" id="box4">
+            <h1>Hotel JMD</h1>
+
+            <h3>Rs. 18000 /-</h3>
+            <center><button><a href="Jmd_hotel/jmd_home.html">Visit Now</a></button></center>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
